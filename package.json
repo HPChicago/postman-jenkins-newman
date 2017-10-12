@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test-int": "newman run tests/postmanautomation.postman_collection.json --reporters junit --reporter-junit-export"
+    "api-test-int": "newman run tests/postmanautomation.postman_collection.json"
   },
   "author": "Gregory Povorozniuk",
   "dependencies": {
